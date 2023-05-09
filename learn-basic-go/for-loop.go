@@ -10,7 +10,7 @@ func main() {
 	slice := []string{"Juan", "Yuan", "Huan"}
 
 	for i := 0; i < len(slice); i++ {
-		fmt.Println("slice",i, ":", slice[i])
+		fmt.Println("slice", i, ":", slice[i])
 	}
 
 	//for range
@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("index", index, ":", name)
 	}
 
-	for _,value := range slice {
+	for _, value := range slice {
 		fmt.Println(value)
 	}
 }

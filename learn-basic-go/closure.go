@@ -8,7 +8,7 @@ import "fmt"
 func main() {
 	counter := 0
 
-	increment := func(){
+	increment := func() {
 		fmt.Println("Increment")
 		counter++ // can access variable from outside
 	}
